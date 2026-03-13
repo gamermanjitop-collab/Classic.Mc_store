@@ -1,12 +1,49 @@
-.vipplus { border-left:5px solid gold; }
-.vip { border-left:5px solid orange; }
-.mvp { border-left:5px solid purple; }
-.god { border-left:5px solid green; }
-.immortal { border-left:5px solid violet; }
-.titan { border-left:5px solid cyan; }
-.legendary { border-left:5px solid red; }
-.legend { border-left:5px solid blue; }
-.magnate { border-left:5px solid pink; }
-.master { border-left:5px solid lime; }
-.hero { border-left:5px solid gray; }
-.ancestral { border-left:5px solid brown; }
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(180deg,#020617,#0f172a,#020617);
+color:white;
+text-align:center;
+}
+
+nav{
+background:#020617;
+padding:15px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.package{
+background:#111827;
+margin:10px;
+padding:15px;
+border-radius:10px;
+}
+
+.package:hover{
+box-shadow:0 0 15px orange;
+}
+
+/* Rank Colors */
+
+.vipplus{border-left:6px solid gold;}
+.vip{border-left:6px solid orange;}
+.mvp{border-left:6px solid purple;}
+.god{border-left:6px solid lime;}
+.immortal{border-left:6px solid violet;}
+.titan{border-left:6px solid cyan;}
+.legendary{border-left:6px solid red;}
+.legend{border-left:6px solid blue;}
+.magnate{border-left:6px solid pink;}
+.master{border-left:6px solid limegreen;}
+.hero{border-left:6px solid gray;}
+.ancestral{border-left:6px solid brown;}
+
+.coin{
+border-left:6px solid gold;
+}
